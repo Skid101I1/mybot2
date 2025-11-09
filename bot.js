@@ -6,8 +6,8 @@ const minecraftData = require('minecraft-data')
 const { GoalNear } = require('mineflayer-pathfinder').goals
 
 
-const host = 'LetanISGay.aternos.me'  //Bigskidbiglarp.aternos.me
-const port = 18985 // 54126
+const host = 'Bigskidbiglarp.aternos.me'  //Bigskidbiglarp.aternos.me
+const port = 54126 // 54126
 const username = 'slave'
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
