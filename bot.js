@@ -4,7 +4,7 @@ const collectBlock = require('mineflayer-collectblock').plugin
 const armorManager = require('mineflayer-armor-manager')
 const minecraftData = require('minecraft-data')
 const { GoalNear } = require('mineflayer-pathfinder').goals
-const mineflayerViewer = require('prismarine-viewer').mineflayer
+
 
 const host = 'LetanISGay.aternos.me'  //Bigskidbiglarp.aternos.me
 const port = 18985 // 54126
@@ -171,9 +171,7 @@ function createBot() {
     bot.pathfinder.setMovements(move)
     console.log('✅ Bot joined the server!')
     
-    // Start the web viewer
-    mineflayerViewer(bot, { port: 3000, firstPerson: true })
-    console.log('🖥️ Bot viewer running at http://localhost:3000')
+
     
     // Equip any armor on spawn
     setTimeout(() => equipBestArmor(), 1000)
